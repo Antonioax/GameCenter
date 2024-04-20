@@ -4,7 +4,7 @@ import usePlatforms from "../hooks/usePlatforms";
 import { Platform } from "../hooks/useGames";
 
 interface Props {
-  selectedPlatform: Platform;
+  selectedPlatform: Platform | null;
   changePlatform: (platform: Platform) => void;
 }
 
